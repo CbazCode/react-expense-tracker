@@ -13,6 +13,7 @@ export const AddTransaction = () => {
     const newTransaction = {
       id: Math.floor(Math.random() * 100000000),
       text,
+      //Si no coloco esto no funciona el money formatter porque esta creado para 3 valores +12 o -23 ex
       amount: +amount
     }
 

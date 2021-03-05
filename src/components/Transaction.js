@@ -4,6 +4,7 @@ import { GlobalContext } from '../context/GlobalState';
 //Money formatter function
 function moneyFormatter(num) {
   let p = num.toFixed(2).split('.');
+  console.log(p[0])
   return (
     '$ ' +
     p[0]
